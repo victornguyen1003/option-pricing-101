@@ -1,8 +1,11 @@
-name: option-pricing-101
+name: /home/victor/Projects/option-pricing-101/.env
 channels:
-- defaults
-- conda-forge
+  - defaults
 dependencies:
-- python
-- numpy
-- matplotlib
+  - numpy
+  - python
+  - matplotlib
+  - ipykernel
+  - yfinance
+  - scipy
+prefix: /home/victor/Projects/option-pricing-101/.env
